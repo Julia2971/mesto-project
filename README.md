@@ -17,4 +17,4 @@
 
 # GitHub Pages
 
-https://julia2971.github.io/Project-Mesto-for-Yandex/
+https://julia2971.github.io/mesto-project/
