@@ -1,3 +1,4 @@
+@import url(../vendor/normalize.css);
 @import url(../vendor/fonts/fonts.css);
 @import url(../blocks/root/root.css);
 @import url(../blocks/header/header.css);
@@ -10,7 +11,6 @@
 @import url(../blocks/profile/__edit/profile__edit.css);
 @import url(../blocks/profile/__subtitle/profile__subtitle.css);
 @import url(../blocks/profile/__plus/profile__plus.css);
-@import url(../blocks/elements/elements.css);
 @import url(../blocks/cards/cards.css);
 @import url(../blocks/card/card.css);
 @import url(../blocks/card/__image/card__image.css);
