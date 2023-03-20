@@ -9,74 +9,74 @@
   </head>
   <body class="root">
     <header class="header">
-      <img class="header__logo" src="./images/Vector.svg" />
+      <img class="header__logo" src="./images/Vector.svg" alt="Логотип Место" />
     </header>
     <main class="main">
       <section class="profile">
-        <img class="profile__avatar" src="./images/image.jpg">
+        <img
+          class="profile__avatar"
+          src="./images/image.jpg"
+          alt="Фото профиля"
+        />
         <div class="profile__info">
-            <div class="profile__title-container">
-                <h1 class="profile__title">Жак-Ив Кусто</h1>
-                <button class="profile__edit"></button>
-            </div>
-            <p class="profile__subtitle">Исследователь океана</p>
+          <div class="profile__title-container">
+            <h1 class="profile__title">Жак-Ив Кусто</h1>
+            <button class="profile__edit" type="button"></button>
+          </div>
+          <p class="profile__subtitle">Исследователь океана</p>
         </div>
-        <button class="profile__plus"></button>
+        <button class="profile__plus" type="button"></button>
       </section>
       <section class="elements">
         <ul class="cards">
           <li class="card">
-            <img class="card__image" src="./images/1.jpg">
+            <img class="card__image" src="./images/1.jpg" alt="Фото здания" />
             <div class="card__footer">
-              <h2 class="card__title">
-                Карачаевск
-              </h2>
-              <button class="card__like"></button>
+              <h2 class="card__title">Карачаевск</h2>
+              <button class="card__like" type="button"></button>
             </div>
           </li>
           <li class="card">
-            <img class="card__image" src="./images/2.png">
+            <img
+              class="card__image"
+              src="./images/2.png"
+              alt="Фото Горы Эльбрус"
+            />
             <div class="card__footer">
-              <h2 class="card__title">
-                Гора Эльбрус
-              </h2>
-              <button class="card__like"></button>
+              <h2 class="card__title">Гора Эльбрус</h2>
+              <button class="card__like" type="button"></button>
             </div>
           </li>
           <li class="card">
-            <img class="card__image" src="./images/3.png">
+            <img class="card__image" src="./images/3.png" alt="Фото Домбай" />
             <div class="card__footer">
-              <h2 class="card__title">
-                Домбай
-              </h2>
-              <button class="card__like"></button>
+              <h2 class="card__title">Домбай</h2>
+              <button class="card__like" type="button"></button>
             </div>
           </li>
           <li class="card">
-            <img class="card__image" src="./images/2.png">
+            <img
+              class="card__image"
+              src="./images/2.png"
+              alt="Фото Горы Эльбрус"
+            />
             <div class="card__footer">
-              <h2 class="card__title">
-                Гора Эльбрус
-              </h2>
-              <button class="card__like"></button>
+              <h2 class="card__title">Гора Эльбрус</h2>
+              <button class="card__like" type="button"></button>
             </div>
           </li>
           <li class="card">
-            <img class="card__image" src="./images/3.png">
+            <img class="card__image" src="./images/3.png" alt="Фото Домбай" />
             <div class="card__footer">
-              <h2 class="card__title">
-                Домбай
-              </h2>
-              <button class="card__like"></button>
+              <h2 class="card__title">Домбай</h2>
+              <button class="card__like" type="button"></button>
             </div>
           </li>
           <li class="card">
-            <img class="card__image" src="./images/1.jpg">
+            <img class="card__image" src="./images/1.jpg" alt="Фото здания" />
             <div class="card__footer">
-              <h2 class="card__title">
-                Карачаево-Черкессия
-              </h2>
-              <button class="card__like"></button>
+              <h2 class="card__title">Карачаево-Черкессия</h2>
+              <button class="card__like" type="button"></button>
             </div>
           </li>
         </ul>
@@ -84,14 +84,11 @@
 
       <div class="popup">
         <div class="popup__container">
-          <button
-            type="button"
-            class="popup__close"
-          ></button>
+          <button type="button" class="popup__close" type="button"></button>
           <form class="popup__form" name="profile" novalidate>
             <h2 class="popup__title">Редактировать профиль</h2>
             <fieldset class="popup__input-container">
-              <input 
+              <input
                 placeholder="Имя"
                 id="name"
                 value="Жак-Ив Кусто"
@@ -101,7 +98,6 @@
                 class="popup__input"
                 name="name"
                 required
-
               />
               <input
                 placeholder="О себе"

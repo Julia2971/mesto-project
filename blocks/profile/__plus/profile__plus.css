@@ -20,5 +20,6 @@
   .profile__plus {
     width: 100%;
     background-size: 16px 16px;
+    margin-bottom: 0px;
   }
 }
