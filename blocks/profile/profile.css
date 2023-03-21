@@ -2,6 +2,7 @@
   width: calc(100% - 2 * 200px);
   margin: 40px auto 51px auto;
   display: flex;
+  max-width: 880px;
 }
 
 @media screen and (max-width: 1279px) {
