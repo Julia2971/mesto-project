@@ -29,6 +29,17 @@
       </section>
       <section class="elements">
         <ul class="cards">
+          <template id="card-template">
+            <li class="card">
+              <img class="card__image" src="" alt="" >
+              <button class="card__trash" type="button"></button>
+              <div class="card__footer">
+                <h2 class="card__title"></h2>
+                <button class="card__like" type="button"></button>
+              </div>
+            </li>
+          </template>
+         <!------ 
           <li class="card">
             <img class="card__image" src="./images/1.jpg" alt="Фото здания" >
             <div class="card__footer">
@@ -78,14 +89,14 @@
               <h2 class="card__title">Карачаево-Черкессия</h2>
               <button class="card__like" type="button"></button>
             </div>
-          </li>
+          </li> --->
         </ul>
       </section>
 
       <div class="popup popup_profile-edit">
         <div class="popup__container">
           <button class="popup__close popup__close_profile-edit" type="button"></button>
-          <form class="popup__form" name="profile" novalidate>
+          <form class="popup__form popup__form_profile" name="profile" novalidate>
             <h2 class="popup__title">Редактировать профиль</h2>
             <fieldset class="popup__input-container">
               <input
@@ -95,7 +106,7 @@
                 type="text"
                 minlength="2"
                 maxlength="40"
-                class="popup__input"
+                class="popup__input popup__input_type_name"
                 name="name"
                 required
               >
@@ -106,7 +117,7 @@
                 type="text"
                 minlength="2"
                 maxlength="200"
-                class="popup__input popup__input_type_description"
+                class="popup__input popup__input_type_job"
                 name="job"
                 required
               >
@@ -118,7 +129,7 @@
       <div class="popup popup_new-place">
         <div class="popup__container">
           <button class="popup__close popup__close_new-place" type="button"></button>
-          <form class="popup__form" name="profile" novalidate>
+          <form class="popup__form popup__form_card" name="profile" novalidate>
             <h2 class="popup__title">Новое место</h2>
             <fieldset class="popup__input-container">
               <input
@@ -128,19 +139,19 @@
                 type="text"
                 minlength="2"
                 maxlength="40"
-                class="popup__input"
+                class="popup__input popup__input_type_description"
                 name="name"
                 required
               >
               <input
                 placeholder="Ссылка на картинку"
-                id="description"
+                id="src"
                 value=""
                 type="text"
                 minlength="2"
                 maxlength="200"
-                class="popup__input popup__input_type_description"
-                name="job"
+                class="popup__input popup__input_type_src"
+                name="src"
                 required
               >
             </fieldset>
